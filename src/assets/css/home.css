@@ -1,0 +1,25 @@
+/**** MainImage ****/
+.section {
+    height: 100%;
+}
+.main-image {
+    width: 100%;
+    height: 250%;
+    position: relative;
+}
+.main-image .main-image-background {
+    width: 100%;
+}
+
+.main-image img.bottom {
+    position: absolute;
+    bottom: 0;
+}
+.main-image .mid-part {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-image .mid-part img.background {
+    width: 100%;
+}

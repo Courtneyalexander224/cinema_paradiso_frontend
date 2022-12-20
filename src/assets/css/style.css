@@ -1,0 +1,422 @@
+/**** Common ****/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+h2 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+/**** Header ****/
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img.logo {
+    width: 6%;
+    margin-left: 5%;
+}
+
+header .side-head {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .side-head .search {
+    position: relative;
+    width: 31%;
+}
+header .side-head .search input[type='text'] {
+    width: 100%;
+    padding: 2% 1%;
+    border: 0;
+    border-radius: 6px;
+}
+
+header .side-head .search img {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    width: 10%;
+}
+
+header .side-head .option {
+    display: contents;
+}
+
+header .side-head .option p {
+    margin: 0;
+    cursor: pointer;
+}
+.main-image .text {
+    position: absolute;
+    top: 14%;
+    left: 6%;
+}
+
+.main-image .text h1 {
+    font-size: 90px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main-image .text p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.main-image .text button {
+    font-size: 19px;
+    background-color: rgba(255, 255, 255, 0%);
+    margin-top: 8%;
+    border: 3px solid rgba(0, 84, 105, 100%);
+    padding: 2% 12%;
+    border-radius: 22px;
+}
+
+.main-image .card img.fav {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+
+.list {
+    margin: auto 5%;
+}
+
+.list .left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% auto;
+}
+
+.list .left .newly-rel {
+    display: flex;
+    width: 28%;
+    align-items: center;
+}
+
+.list .left .newly-rel hr {
+    transform: rotate(180deg);
+    width: 13%;
+}
+
+.list .left .newly-rel .icon {
+    display: flex;
+    width: 7%;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+
+.list ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+}
+
+.list li {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.list li .card {
+    position: relative;
+}
+
+.list li .card img.fav {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    width: 10%;
+}
+
+.list li .card img.image {
+    width: 100%;
+}
+
+.list li button {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 100%);
+    background-color: rgba(46, 61, 61, 100%);
+    border-radius: 11px;
+    padding: 12px 20px;
+}
+
+footer {
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+section.preview {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 41%);
+    z-index: 3;
+}
+
+section.preview .opecity {
+    background: rgba(0, 0, 0, 0.15);
+    width: 80%;
+    position: relative;
+    top: 10%;
+    left: 11%;
+    border-radius: 25px;
+}
+
+section.preview .opecity img.background2 {
+    width: 100%;
+    backdrop-filter: blur(5px);
+    filter: blur(15px);
+    border-radius: 25px;
+}
+
+img.icon-close {
+    position: absolute;
+    z-index: 2;
+    width: 2%;
+    right: 3%;
+    top: 4%;
+}
+
+.preview-content {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.preview-img {
+    width: 35%;
+    height: 53%;
+    border-radius: 50%;
+    margin: 13.7% auto;
+}
+
+.preview-text {
+    width: 50%;
+}
+
+img.preview {
+    width: 70%;
+    margin: 22% 15%;
+}
+
+.preview-text {
+    width: 50%;
+    margin: 7% auto;
+    color: rgba(255, 255, 255, 255);
+}
+
+.preview-text h1 {
+    font-size: 28px;
+    margin: 0 0 2% 0;
+    font-weight: 400;
+}
+
+.preview-text h4 {
+    margin: 0 0 2% 0;
+    color: rgb(252, 197, 55);
+    font-size: 24px;
+    font-weight: initial;
+}
+
+.preview-text p {
+    margin: 0 0 2% 0;
+    font-size: 14px;
+}
+
+.preview-text .preview-buttons {
+    margin: 0 0 2% 0;
+    font-size: 14px;
+}
+
+.preview-text .preview-buttons button {
+    font-size: 9px;
+    font-weight: lighter;
+    padding: 1.5% 3%;
+    border-radius: 7px;
+    border: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 33%);
+    margin-left: 0.5vw
+}
+
+.preview-text button.preview-play {
+    width: 30%;
+    margin-top: 11%;
+    background-color: rgb(46, 61, 61);
+    padding: 2% 0;
+    border: 0;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+}
+
+.preview-text button.preview-play img {
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 300px) {
+    header img.logo {
+        width: 10%;
+    }
+
+    header .side-head .option p {
+        font-size: 9px;
+    }
+
+    header .side-head {
+        width: 80%;
+    }
+
+    header .side-head .search img {
+        top: 36%;
+    }
+
+    .main-image .text h1 {
+        font-size: 15px;
+    }
+
+    .main-image .text p {
+        font-size: 4px;
+    }
+
+    .main-image .text button {
+        font-size: 4px;
+    }
+
+    .main-image .text {
+        top: 4%;
+    }
+
+    .list .left .newly-rel h2 {
+        font-size: 5px;
+    }
+
+    .list ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .list li h1 {
+        font-size: 10px;
+        margin: 1% auto;
+    }
+
+    .list li p {
+        font-size: 5px;
+    }
+
+    .list li button {
+        font-size: 5px;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 450px) {
+    header img.logo {
+        width: 11%;
+    }
+
+    header .side-head {
+        width: 100%;
+    }
+
+    header .side-head .search img {
+        top: 28%;
+    }
+
+    .main-image .text {
+        top: 5%;
+    }
+
+    .main-image .text h1 {
+        font-size: 30px;
+    }
+
+    .main-image .text p {
+        font-size: 6px;
+    }
+
+    .main-image .text button {
+        font-size: 5px;
+    }
+
+    .list ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .list li button {
+        font-size: 10px;
+    }
+
+    .list .left .newly-rel h2 {
+        font-size: 7px;
+    }
+
+    .list li h1 {
+        font-size: 14px;
+        margin: 1% auto;
+    }
+
+    .list li p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 1020px) {
+    header img.logo {
+        width: 11%;
+    }
+
+    header .side-head {
+        width: 100%;
+    }
+
+    .main-image .text {
+        top: 7%;
+    }
+
+    .main-image .text h1 {
+        font-size: 44px;
+    }
+
+    .main-image .text p {
+        font-size: 8px;
+    }
+
+    .main-image .text button {
+        font-size: 10px;
+    }
+
+    .list ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .list li button {
+        font-size: 9px;
+    }
+
+    .list .left .newly-rel h2 {
+        font-size: 11px;
+    }
+}

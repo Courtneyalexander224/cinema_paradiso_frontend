@@ -1,0 +1,11 @@
+<svg id="Component_2_134" data-name="Component 2 – 134" xmlns="http://www.w3.org/2000/svg" width="39" height="40" viewBox="0 0 39 40">
+  <g id="Ellipse_6" data-name="Ellipse 6" fill="rgba(255,255,255,0.34)" stroke="#000" stroke-width="1" opacity="0.65">
+    <ellipse cx="19.5" cy="20" rx="19.5" ry="20" stroke="none"/>
+    <ellipse cx="19.5" cy="20" rx="19" ry="19.5" fill="none"/>
+  </g>
+  <g id="right-arrow" transform="translate(15.827 12.806)">
+    <g id="Group_24" data-name="Group 24" transform="translate(0)">
+      <path id="Path_10" data-name="Path 10" d="M109.7,6.634,103.3.23a.789.789,0,0,0-1.113,0L101.714.7a.788.788,0,0,0,0,1.113l5.378,5.378-5.383,5.383a.789.789,0,0,0,0,1.113l.472.471a.789.789,0,0,0,1.113,0l6.41-6.41a.794.794,0,0,0,0-1.117Z" transform="translate(-101.478 0)"/>
+    </g>
+  </g>
+</svg>
